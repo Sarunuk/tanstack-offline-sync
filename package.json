@@ -1,0 +1,29 @@
+{
+  "name": "tanstack-offline-sync",
+  "version": "0.0.1",
+  "description": "Offline mutation queue + retry for TanStack Query",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts",
+    "dev": "tsup src/index.ts --watch"
+  },
+  "keywords": [
+    "tanstack",
+    "react-query",
+    "offline",
+    "sync"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@tanstack/react-query": "^5.99.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}

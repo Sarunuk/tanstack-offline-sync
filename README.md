@@ -1,2 +1,19 @@
 # tanstack-offline-sync
-tanstack-offline-sync adds offline support to TanStack Query by automatically queuing and retrying mutations when the network reconnects.
+
+Offline mutation queue + retry for TanStack Query.
+
+## Install
+
+```bash
+npm install tanstack-offline-sync
+```
+
+## Usage
+
+```ts
+createOfflineSync()
+
+const mutation = useOfflineMutation({
+  mutationFn: sendMessage,
+})
+```
